@@ -28,7 +28,7 @@ def preprocess_text(text):
 # Load data
 @st.cache_data
 def load_data():
-    data = pd.read_csv('test.csv')
+    data = pd.read_csv('/path/to/test.csv')
     return data
 
 # Train model
